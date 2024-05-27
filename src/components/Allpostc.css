@@ -1,0 +1,84 @@
+/* AllPost.css */
+
+/* Container for the posts */
+.posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posts-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .post-item {
+    background-color:#218838;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .post-item h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .post-item p {
+    margin-bottom: 10px; /* Adds spacing below the paragraph */
+    color: black; /* Sets the text color to black */
+    line-height: 1.6; /* Improves readability by setting a good line height */
+    font-size: 16px; /* Sets a base font size for better readability */
+    font-family: Arial, sans-serif; /* Uses a web-safe font for better compatibility */
+    text-align: justify; /* Aligns text to both left and right, creating a neat block of text */
+    padding: 5px; /* Adds some padding for better spacing within the element */
+   /* Adds a light background color to distinguish paragraphs */
+     /* Adds a subtle left border for emphasis */
+}
+
+  
+  .post-item input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .post-item button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .go-home-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .go-home-button:hover {
+    background-color: #218838;
+  }
+  li{
+    list-style: none;
+  }

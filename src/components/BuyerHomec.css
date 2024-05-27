@@ -1,0 +1,109 @@
+/* Container Styling */
+.buyer-home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ececec; /* Changed to a lighter grey for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Item Styling */
+.post-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align all items */
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align text */
+}
+
+/* Paragraph Styling */
+.post-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Room Image Styling */
+.room-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination span {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* Additional Styling for Better Text Appearance */
+.post-item p strong {
+  color: #007bff;
+}
+
+.buyer-home-container h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Flex Container for Buttons */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  gap: 20px; /* Add space between buttons */
+  width: 100%;
+  margin-top: 10px;
+}

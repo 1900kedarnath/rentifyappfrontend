@@ -1,0 +1,168 @@
+/* src/components/App.css */
+
+/* Style for the main container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  margin-left:100px;
+}
+
+
+
+
+.sign-in-button {
+  height: 40px;                  /* Increased height for better visibility */
+  width: 200px;                  /* Set a width to standardize the button size */
+  margin-left: 42%;              /* Centering the button (consider changing this) */
+  padding: 0 20px; 
+  margin-top:2px;           /* Padding for better click area */
+  background-color: #007BFF;     /* Primary color for the button */
+  color: white;                  /* Text color */
+  border: none;                  /* Removing default border */
+  border-radius: 5px;            /* Rounded corners */
+  font-size: 16px;               /* Font size for better readability */
+  font-weight: bold;             /* Bold text */
+  text-align: center;            /* Centering the text */
+  cursor: pointer;               /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effect */
+}
+
+/* Hover and active effects */
+.sign-in-button:hover {
+  background-color: #0056b3;     /* Darker shade on hover */
+  transform: scale(1.05);        /* Slightly enlarge the button */
+}
+
+.sign-in-button:active {
+  background-color: #003f7f;     /* Even darker shade on click */
+  transform: scale(1);           /* Reset scale on click */
+}
+
+/* Focus outline for accessibility */
+.sign-in-button:focus {
+  outline: 2px solid #80bdff;    /* Outline color */
+  outline-offset: 2px;           /* Offset for the outline */
+}
+
+.sign-up-button {
+  height: 40px;                  /* Increased height for better visibility */
+  width: 200px;                  /* Set a width to standardize the button size */
+  margin-left: 41%;              /* Centering the button (consider changing this) */
+  padding: 0px 20px;
+  position:absolute ;
+  bottom:110px;
+             /* Padding for better click area */
+  background-color:green;     /* Primary color for the button */
+  color: white;                  /* Text color */
+  border: none;                  /* Removing default border */
+  border-radius: 5px;            /* Rounded corners */
+  font-size: 16px;               /* Font size for better readability */
+  font-weight: bold;             /* Bold text */
+  text-align: center;            /* Centering the text */
+  cursor: pointer;               /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effect */
+}
+
+/* Hover and active effects */
+.sign-up-button:hover {
+  background-color: #0056b3;     /* Darker shade on hover */
+  transform: scale(1.05);        /* Slightly enlarge the button */
+}
+
+.sign-up-button:active {
+  background-color: #003f7f;     /* Even darker shade on click */
+  transform: scale(1);           /* Reset scale on click */
+}
+
+/* Focus outline for accessibility */
+.sign-up-button:focus {
+  outline: 2px solid #80bdff;    /* Outline color */
+  outline-offset: 2px;           /* Offset for the outline */
+}
+
+
+/* Style for the LoginForm component container */
+.signin-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-left:42%;
+}
+
+/* Style for form elements */
+.signin-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-in-home{
+  background-color: #003f7f; 
+ 
+  width:365px;
+  position:relative;
+  bottom:-40px; 
+  margin-left:481px; 
+}
+
+/* Style for error message */
+p {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buyerheading{
+  font-family: 'Arial', sans-serif;  /* Set a clean, modern font */
+  font-size: 2.5em;                  /* Large font size for the heading */
+  font-weight: bold;                 /* Bold weight for emphasis */
+  color: #333;                       /* Dark color for good contrast */
+  text-align: center;                /* Center align the text */
+  margin: 20px 0;                    /* Margin for spacing above and below */
+  padding: 10px;                     /* Padding for some internal space */
+                    /* Adjust line height for readability */
+  text-transform: uppercase;
+}
+.sign-up-button{
+  background-color: #003f7f; 
+ opacity:0.7;
+ width:365px;
+ 
+ margin-left:487px; 
+}

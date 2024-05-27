@@ -1,0 +1,46 @@
+.seller-containerd {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-formd {
+    margin-bottom: 20px;
+}
+
+.form-groupd {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-submit, .btn-home {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover, .btn-home:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 10px;
+}
